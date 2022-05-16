@@ -18,15 +18,15 @@ setup(
     long_description=get_long_description(),
     long_description_content_type="text/markdown",
     author="Simon Willison",
-    url="https://github.com/aramns1089/scrapper_trial",
+    url="https://github.com/aramns1089/ASC_scraper",
     project_urls={
-        "Issues": "https://github.com/aramns1089/scrapper_trial/issues",
-        "CI": "https://github.com/aramns1089/scrapper_trial/actions",
-        "Changelog": "https://github.com/aramns1089/scrapper_trial/releases",
+        "Issues": "https://github.com/aramns1089/ASC_scraper/issues",
+        "CI": "https://github.com/aramns1089/ASC_scraper/actions",
+        "Changelog": "https://github.com/aramns1089/ASC_scraper/releases",
     },
     license="Apache License, Version 2.0",
     version=VERSION,
-    packages=["shot_scraper"],
+    packages=["shot_scraper_custom"],
     entry_points="""
         [console_scripts]
         shot-scraper=shot_scraper.cli:cli
