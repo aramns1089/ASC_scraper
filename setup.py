@@ -26,7 +26,7 @@ setup(
     },
     license="Apache License, Version 2.0",
     version=VERSION,
-    packages=["shot_scraper_custom"],
+    packages=["shot_scraper"],
     entry_points="""
         [console_scripts]
         shot-scraper=shot_scraper.cli:cli
